@@ -24,12 +24,12 @@ st.pyplot(fig)
 # subheader 
 st.subheader("Plot Sin & Cos ")
 
-col1. col2 = st.coloumn(2)
+col1. col2 = st.columns(2)
 
 with col1:
-st.caption('Plot Sin')
-x = np.linspace(-2 * np.pi,  1000)
-y = np.cos(x)
+  st.caption('Plot Sin')
+  x = np.linspace(-2 * np.pi,  1000)
+  y = np.cos(x)
 
 fig, ax = plt.subplots(figsize=(16, 8)
 ax.plot(x, y, label='cos(x)', color='g')
@@ -42,9 +42,9 @@ ax.tick_params(axis='x', labelsize=15)
 st.pyplot(fig)
 
 with col2:
-st.caption('Plot Cos')
-x = np.linspace(-2 * np.pi,  1000)
-y = np.cos(x)
+  st.caption('Plot Cos')
+  x = np.linspace(-2 * np.pi,  1000)
+  y = np.cos(x)
 
 fig, ax = plt.subplots(figsize=(16, 8)
 ax.plot(x, y, label='cos(x)', color='g')
