@@ -12,7 +12,7 @@ z = np.cos (x) # calculating cos (x) values
 
 fig, ax = plt.subplots(figsize=(16, 8))
 ax.plot(x, y, label='sin(x)', color='b') #plotting sin(x) curve 
-ax.plot(x, z , label='cos(x)', color='g') #plotting cods(x) curve 
+ax.plot(x, z, label='cos(x)', color='g') #plotting cods(x) curve 
 ax.set_ylabel("")
 ax.set_xlabel("x")
 ax.tick_params(axis='y', labelsize=20)
