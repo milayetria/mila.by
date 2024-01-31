@@ -22,7 +22,7 @@ ax.tick_params(axis='x', labelsize=15)
 st.pyplot(fig)
 
 # subheader 
-st.subheader("Plot Sin & Cos ")
+st.subheader("Plot Sin & Cos")
 
 col1. col2 = st.columns(2)
 
