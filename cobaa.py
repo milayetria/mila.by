@@ -28,7 +28,7 @@ col1, col2 = st.columns(2)
 
 with col1:
   st.caption('Plot Sin')
-  x = np.linspace(-2 * np.pi,  1000)
+  x = np.linspace(-2 * np.pi, 2 * np.pi, 1000) 
   y = np.cos(x)
   
   fig, ax = plt.subplots(figsize=(16, 8))
@@ -43,7 +43,7 @@ with col1:
 
 with col2:
   st.caption('Plot Cos')
-  x = np.linspace(-2 * np.pi,  1000)
+  x = np.linspace(-2 * np.pi, 2 * np.pi, 1000) 
   y = np.cos(x)
   
   fig, ax = plt.subplots(figsize=(16, 8))
