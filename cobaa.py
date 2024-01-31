@@ -31,7 +31,7 @@ with col1:
   x = np.linspace(-2 * np.pi,  1000)
   y = np.cos(x)
   
-  fig, ax = plt.subplots(figsize=(16, 8)
+  fig, ax = plt.subplots(figsize=(16, 8))
   ax.plot(x, y, label='sin(x)', color='b')
   ax.set_ylabel("Sin x")
   ax.set_xlabel("x") 
