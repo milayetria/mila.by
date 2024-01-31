@@ -32,7 +32,7 @@ with col1:
   y = np.cos(x)
   
   fig, ax = plt.subplots(figsize=(16, 8))
-  ax.plot(x, y, label='sin(x)', color='b')
+  ax.plot(x, y, label='sin(x)', color='g')
   ax.set_ylabel("Sin x")
   ax.set_xlabel("x") 
   ax.tick_params(axis='y', labelsize=20)
