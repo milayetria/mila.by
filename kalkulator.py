@@ -27,7 +27,7 @@ with c3:
     elif operator == ':':
         if y != 0:
             result = x / y 
-            else 
+        else:
             result = "Pembagian dengan nol tidak bisa"
 
 st.write(f'Hasil dari {x}  {operator} {y} adalah {result}')
