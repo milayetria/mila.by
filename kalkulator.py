@@ -16,7 +16,22 @@ with c2:
     st.write(':sparkles: ')
 with c3:
     y = st.number_input('Angka ',value=1)
-    
-st.write(x, '',operator,' = ','')
 
-st.caption('Copyright © Sarmila Yetria 2023')
+# Operasi matematika
+with st.expander('Hasil');
+if operator == '+':
+    result = x + y 
+    elif operator == '-':
+    result = x - y 
+    elif operator == 'x':
+    result = x * y 
+    elif operator == ':':
+if y != 0:
+    result = x / y 
+    result = x  y 
+else 
+result = "Pembagian dengan nol tidak bisa"
+
+st.write(f'Hasil dari {x}  {operator} {y} adalah {result}')
+
+st.caption('Copyright © Sarmila Yetria 2024')
