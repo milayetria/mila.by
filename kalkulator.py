@@ -11,8 +11,8 @@ with c1:
     st.write('=>: ')
 with c2:
     operator = st.selectbox(
-      'operator',
-       ('+', '-', 'x', ':'), key='k1')
+        'Operator',
+        ('+', '-', 'x', ':'), key='k1')
     st.write('sparkles:')
 
 st.write(x, '',operator,' = ','')
