@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Header 
-st.header('Sarmila :sparkles:')
+st.header('Sarmila Yetria:sparkles:')
 st.subheader('Plot')
 
 c1, c2, c3 = st.columns(3)
