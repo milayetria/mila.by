@@ -18,7 +18,7 @@ with c3:
     y = st.number_input('Angka ',value=1)
 
 # Operasi matematika
-with st.expander('Hasil');
+with st.expander('Hasil'):
 if operator == '+':
     result = x + y 
     elif operator == '-':
