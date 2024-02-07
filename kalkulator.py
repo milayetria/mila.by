@@ -4,7 +4,7 @@ import streamlit as st
 st.header('Sarmila :sparkles:')
 st.subheader('Plot')
 
-c1, c2 = st.columns(2)
+c1, c2, c3 = st.columns(3)
 
 with c1:
     x = st.number_input('Angka ',value=100)
