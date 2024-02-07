@@ -19,18 +19,18 @@ with c3:
 
 # Operasi matematika
 with st.expander('Hasil'):
-if operator == '+':
-    result = x + y 
+    if operator == '+':
+        result = x + y 
     elif operator == '-':
-    result = x - y 
+        result = x - y 
     elif operator == 'x':
-    result = x * y 
+        result = x * y 
     elif operator == ':':
-if y != 0:
-    result = x / y 
-    result = x  y 
-else 
-result = "Pembagian dengan nol tidak bisa"
+        if y != 0:
+            result = x / y 
+            result = x  y 
+            else 
+            result = "Pembagian dengan nol tidak bisa"
 
 st.write(f'Hasil dari {x}  {operator} {y} adalah {result}')
 
