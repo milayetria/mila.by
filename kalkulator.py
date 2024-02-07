@@ -14,6 +14,9 @@ with c2:
         'Operator',
         ('+', '-', 'x', ':'), key='k1')
     st.write(':sparkles: ')
+with c1:
+    x = st.number_input('Angka ',value=150)
+    st.write('=>: ')
 
 st.write(x, '',operator,' = ','')
 
