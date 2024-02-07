@@ -18,7 +18,6 @@ with c3:
     y = st.number_input('Angka ',value=1)
 
 # Operasi matematika
-with st.expander('Hasil'):
     if operator == '+':
         result = x + y 
     elif operator == '-':
@@ -28,7 +27,6 @@ with st.expander('Hasil'):
     elif operator == ':':
         if y != 0:
             result = x / y 
-            result = x  y 
             else 
             result = "Pembagian dengan nol tidak bisa"
 
