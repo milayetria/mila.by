@@ -16,7 +16,8 @@ with c2:
     st.write(':sparkles: ')
 with c3:
     x = st.number_input('Angka ',value=100)
-
+     st.write('=>: ')
+    
 st.write(x, '',operator,' = ','')
 
 st.caption('Copyright © Sarmila Yetria 2023')
