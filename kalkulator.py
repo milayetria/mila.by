@@ -15,7 +15,7 @@ with c2:
         ('+', '-', 'x', ':'), key='k1')
     st.write(':sparkles: ')
 with c3:
-    y = st.number_input('Angka ',value=100)
+    y = st.number_input('Angka ',value=1)
     
 st.write(x, '',operator,' = ','')
 
