@@ -44,7 +44,7 @@ def integral_trapesium(x1, x2, n):
 
     for i in range(1, n):
         x = x1 + i * h
-        integral += fungsi(x)
+        integral += (x)
 
     return h * integral
 
