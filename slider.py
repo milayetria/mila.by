@@ -52,7 +52,7 @@ a = 0
 b = 2
 n = 1000  # Jumlah trapesium, semakin besar semakin akurat
 
-u = f(t) dx
+u = f(x) dx
 fig, ax = plt.subplots(figsize=(16,8))
 ax.plot(t, u, label='sin(t)', color='b') 
 ax.set_ylabel("")
