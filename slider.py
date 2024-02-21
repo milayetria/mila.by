@@ -38,7 +38,7 @@ st.pyplot(fig)
 def f(x):
     return 13 * x**2 + 9 * x - 12
 
-u = f(x) dx
+u = f(t)dx
 fig, ax = plt.subplots(figsize=(16,8))
 ax.plot(t, u, label='sin(t)', color='b') 
 ax.set_ylabel("")
