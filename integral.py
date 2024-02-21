@@ -15,7 +15,7 @@ def trapezoidal_integral(f, a, b, n):
     return integral_value
 
 # Streamlit app
-st.title('Integral Trapesium untuk Fungsi f(x) = x^2 + 17x + 9')
+st.title('Integral Trapesium untuk Fungsi f(x) = x^2 + 13x + 10')
 
 # Slider untuk memilih rentang nilai x
 st.sidebar.header('Pilih Rentang Nilai x')
