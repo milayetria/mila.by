@@ -38,7 +38,7 @@ st.pyplot(fig)
 def fungsi(x):
     return 13 * x**2 + 9 * x - 12
 
-def ef integral_trapesium(x1, x2, n):
+def integral_trapesium(x1, x2, n):
     h = (x2 - x1) / n
     integral = 0.5 * (f(x1) + f(x2))
 
