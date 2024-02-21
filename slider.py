@@ -35,7 +35,7 @@ ax.tick_params(axis='x', labelsize=15)
 plt.grid(color='green', linestyle='-.', linewidth=.5)
 st.pyplot(fig)
 
-def fungsi(x):
+def f(x):
     return 13 * x**2 + 9 * x - 12
 
 def integral_trapesium(a, b, n):
@@ -52,5 +52,13 @@ a = 0
 b = 2
 n = 1000  # Jumlah trapesium, semakin besar semakin akurat
 
-hasil_integral = integral_trapesium(a, b, n)
-print(f"Integral dari fungsi 13x^2 + 9x - 12 dari {a} hingga {b} adalah: {hasil_integral}")
+u = f(t) dx
+fig, ax = plt.subplots(figsize=(16,8))
+ax.plot(t, u, label='sin(t)', color='b') 
+ax.set_ylabel("")
+ax.set_xlabel("t")
+ax.tick_params(axis='y', labelsize=20)
+ax.set_xticklabels(ax.get_xticklabels(), rotation=30, ha='right')
+ax.tick_params(axis='x', labelsize=15)
+plt.grid(color='green', linestyle='-.', linewidth=.5)
+st.pyplot(fig)
