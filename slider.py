@@ -38,20 +38,6 @@ st.pyplot(fig)
 def f(x):
     return 13 * x**2 + 9 * x - 12
 
-def integral_trapesium(a, b, n):
-    h = (b - a) / n
-    integral = 0.5 * (fungsi(a) + fungsi(b))
-
-    for i in range(1, n):
-        x = a + i * h
-        integral += fungsi(x)
-
-    return h * integral
-
-a = 0
-b = 2
-n = 1000  # Jumlah trapesium, semakin besar semakin akurat
-
 u = f(x) dx
 fig, ax = plt.subplots(figsize=(16,8))
 ax.plot(t, u, label='sin(t)', color='b') 
