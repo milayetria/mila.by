@@ -48,13 +48,9 @@ def integral_trapesium(a, b, n):
 
     return h * integral
 
-# Menentukan batas integral (a dan b) serta jumlah trapesium (n)
 a = 0
 b = 2
 n = 1000  # Jumlah trapesium, semakin besar semakin akurat
 
-# Menghitung integral trapesium
 hasil_integral = integral_trapesium(a, b, n)
-
-# Menampilkan hasil
 print(f"Integral dari fungsi 13x^2 + 9x - 12 dari {a} hingga {b} adalah: {hasil_integral}")
