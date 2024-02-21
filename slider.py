@@ -22,7 +22,7 @@ plt.grid(color='green', linestyle='-.', linewidth=.5)
 st.pyplot(fig)
 
 def f(x): 
-  return 17*x**2+1*x-16
+  return 13*x**2+9*x-12
 
 u = f(t)
 fig, ax = plt.subplots(figsize=(16,8))
