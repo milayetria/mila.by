@@ -34,3 +34,27 @@ ax.set_xticklabels(ax.get_xticklabels(), rotation=30, ha='right')
 ax.tick_params(axis='x', labelsize=15)
 plt.grid(color='green', linestyle='-.', linewidth=.5)
 st.pyplot(fig)
+
+def fungsi(x):
+    return 13 * x**2 + 9 * x - 12
+
+def integral_trapesium(a, b, n):
+    h = (b - a) / n
+    integral = 0.5 * (fungsi(a) + fungsi(b))
+
+    for i in range(1, n):
+        x = a + i * h
+        integral += fungsi(x)
+
+    return h * integral
+
+# Menentukan batas integral (a dan b) serta jumlah trapesium (n)
+a = 0
+b = 2
+n = 1000  # Jumlah trapesium, semakin besar semakin akurat
+
+# Menghitung integral trapesium
+hasil_integral = integral_trapesium(a, b, n)
+
+# Menampilkan hasil
+print(f"Integral dari fungsi 13x^2 + 9x - 12 dari {a} hingga {b} adalah: {hasil_integral}")
