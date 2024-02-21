@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Definisi fungsi
 def f(x):
-    return x**2 + 17*x + 9
+    return x**2 + 13*x + 10
 
 # Fungsi untuk menghitung integral menggunakan metode trapesium
 def trapezoidal_integral(f, a, b, n):
@@ -31,7 +31,7 @@ y_vals = f(x_vals)
 
 # Membuat plot dengan rentang yang dipilih
 fig, ax = plt.subplots(figsize=(16, 8))
-ax.plot(x_vals, y_vals, label='f(x) = x^2 + 17x + 9', color='b')
+ax.plot(x_vals, y_vals, label='f(x) = x^2 + 13x + 10', color='b')
 ax.fill_between(x_vals, y_vals, color='skyblue', alpha=0.3, where=(x_vals >= integral_range[0]) & (x_vals <= integral_range[1]))  # Arsiran daerah di bawah kurva sesuai dengan rentang integral
 ax.axvline(x=integral_range[0], color='red', linestyle='--')  # Garis vertikal menandai batas bawah rentang integral
 ax.axvline(x=integral_range[1], color='red', linestyle='--')  # Garis vertikal menandai batas atas rentang integral
